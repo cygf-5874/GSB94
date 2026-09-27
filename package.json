@@ -1,0 +1,19 @@
+{
+  "name": "gsb94-varintscan",
+  "version": "0.0.0",
+  "private": true,
+  "description": "流式 varint 解码器（Node.js 22，ESM，零第三方依赖）",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./src/varintscan.mjs",
+  "exports": {
+    ".": "./src/varintscan.mjs",
+    "./errors": "./src/errors.mjs"
+  },
+  "scripts": {
+    "check": "node check/check.mjs",
+    "test": "node --test"
+  }
+}
